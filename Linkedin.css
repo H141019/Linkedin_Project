@@ -249,10 +249,29 @@ li {
   font-size: 12px;
 }
 
-.middle-content .box-two {
+.middle-content .box-two .paragraph {
   width: 95%;
   margin: 10px auto;
   text-align: justify;
+}
+
+.middle-content .box-two .social {
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-content .box-two .social .fa-thumbs-up {
+  color: #358fe8;
+}
+
+.middle-content .box-two .social .counts {
+  padding-left: 10px;
+}
+
+.middle-content .box-two .social .comments {
+  padding-right: 10px;
 }
 
 /* /////////////////////// */
