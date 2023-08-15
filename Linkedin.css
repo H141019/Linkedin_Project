@@ -67,16 +67,17 @@ li {
 .left-content .box-one {
   background-color: white;
   width: 100%;
-  height: 300px;
+  height: 255px;
+  border-radius: 15px;
 }
 
-.box-one .background {
+.left-content .box-one .background {
   background-color: #a0b4b7;
   width: 100%;
   height: 50px;
 }
 
-.box-one .fa-circle-user {
+.left-content .box-one .fa-circle-user {
   display: block;
   text-align: center;
   position: absolute;
@@ -87,23 +88,65 @@ li {
   background-color: none;
 }
 
-.box-one .heading {
+.left-content .left-content.box-one .heading {
   text-align: center;
   margin-top: 45px;
   font-size: 20px;
   font-weight: 700px;
 }
 
-.box-one .sub-heading {
+.left-content .box-one .sub-heading {
   text-align: center;
+  margin-top: 10px;
+  color: gray;
+}
+
+.left-content .box-one .para-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content .box-one .para-column .one {
+  color: grey;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.left-content .box-one .para-column .two {
+  color: #0d67c2;
+  font-size: 12px;
+  margin-right: 5px;
 }
 
 .left-content .box-two {
   background-color: white;
   width: 100%;
-  height: 200px;
+  min-height: 200px;
   margin-top: 20px;
 }
+
+.left-content .box-two .heading {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.left-content .box-two .list {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.left-content .box-two .list .list-one {
+  display: inline-block;
+}
+
+.left-content .box-two .list .list-two {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* ////////////////////////// */
 
 .middle-content {
   width: 100%;
@@ -114,6 +157,29 @@ li {
   height: 100px;
   background-color: white;
 }
+
+.middle-content .box-one .search {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.middle-content .box-one .input {
+  width: 350px;
+  margin-top: 25px;
+  height: 45px;
+  border-radius: 22px;
+  border: 1px solid grey;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.middle-content .box-one .search .fa-regular {
+  font-size: 55px;
+  margin-top: 20px;
+}
+
+/* /////////////////// */
 
 .middle-content .box-two {
   width: 100%;
