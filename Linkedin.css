@@ -60,19 +60,49 @@ li {
 }
 
 .left-content {
-  width: 100%;
+  width: 35%;
+  /* background-color: white; */
+}
+
+.left-content .box-one {
   background-color: white;
+  width: 100%;
   height: 300px;
+}
+
+.left-content .box-two {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
 }
 
 .middle-content {
   width: 100%;
-  background-color: white;
+}
+
+.middle-content .box-one {
+  width: 100%;
   height: 100px;
+  background-color: white;
+}
+
+.middle-content .box-two {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.middle-content .box-three {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  background-color: white;
 }
 
 .right-content {
-  width: 100%;
+  width: 50%;
   background-color: white;
   height: 300px;
 }
