@@ -70,6 +70,34 @@ li {
   height: 300px;
 }
 
+.box-one .background {
+  background-color: #a0b4b7;
+  width: 100%;
+  height: 50px;
+}
+
+.box-one .fa-circle-user {
+  display: block;
+  text-align: center;
+  position: absolute;
+  font-size: 50px;
+  color: #ce95ff;
+  margin-left: 77px;
+  margin-top: -24px;
+  background-color: none;
+}
+
+.box-one .heading {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.box-one .sub-heading {
+  text-align: center;
+}
+
 .left-content .box-two {
   background-color: white;
   width: 100%;
