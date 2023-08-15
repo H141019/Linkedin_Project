@@ -55,5 +55,24 @@ li {
   width: 80%;
   display: flex;
   justify-content: center;
+  margin: 20px auto;
   gap: 40px;
+}
+
+.left-content {
+  width: 100%;
+  background-color: white;
+  height: 300px;
+}
+
+.middle-content {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+}
+
+.right-content {
+  width: 100%;
+  background-color: white;
+  height: 300px;
 }
