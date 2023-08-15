@@ -50,3 +50,10 @@ nav .input-search {
 li {
   cursor: pointer;
 }
+
+.main-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
