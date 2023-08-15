@@ -218,6 +218,37 @@ li {
   background-color: white;
 }
 
+.middle-content .box-two .profile {
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  gap: 10px;
+}
+
+.middle-content .box-two .profile .circle {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #0d67c2;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 22px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.middle-content .box-two .profile .description {
+  margin-top: 20px;
+}
+
+.middle-content .box-two .profile .description .name {
+  font-weight: bold;
+}
+
+.middle-content .box-two .profile .description .designation {
+  font-size: 12px;
+}
+
 /* /////////////////////// */
 
 .middle-content .box-three {
