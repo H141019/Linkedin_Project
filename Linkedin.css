@@ -75,6 +75,8 @@ li {
   background-color: #a0b4b7;
   width: 100%;
   height: 50px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .left-content .box-one .fa-circle-user {
@@ -88,7 +90,7 @@ li {
   background-color: none;
 }
 
-.left-content .left-content.box-one .heading {
+.left-content .box-one .heading {
   text-align: center;
   margin-top: 45px;
   font-size: 20px;
@@ -104,6 +106,7 @@ li {
 .left-content .box-one .para-column {
   display: flex;
   justify-content: space-between;
+  margin: 10px auto;
 }
 
 .left-content .box-one .para-column .one {
@@ -154,7 +157,7 @@ li {
 
 .middle-content .box-one {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background-color: white;
 }
 
@@ -177,6 +180,33 @@ li {
 .middle-content .box-one .search .fa-regular {
   font-size: 55px;
   margin-top: 20px;
+  color: #ce95ff;
+}
+
+.middle-content .box-one .list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.fa-photo-film {
+  color: rgb(112, 181, 249);
+}
+
+.middle-content .box-one .list .span {
+  padding-left: 10px;
+}
+.fa-video {
+  color: rgb(221, 21, 149);
+}
+
+.fa-calendar-days {
+  color: rgb(12, 11, 129);
+}
+.fa-newspaper {
+  color: rgb(10, 81, 49);
 }
 
 /* /////////////////// */
@@ -187,6 +217,8 @@ li {
   margin-top: 20px;
   background-color: white;
 }
+
+/* /////////////////////// */
 
 .middle-content .box-three {
   width: 100%;
